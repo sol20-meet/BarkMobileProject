@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shelter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme.DayNight">
+        <activity android:name=".Activities.VideoPage">
+        </activity>
+
+        <receiver
+            android:name=".MyReceiverBattery"
+            android:enabled="true"
+            android:exported="false">
+        </receiver>
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="false">
+        </service>
+
+        <activity android:name=".Activities.EditDogProfile" />
+        <activity android:name=".Activities.Egg" />
+        <activity android:name=".Activities.Settings" />
+        <activity android:name=".Activities.DogProfile" />
+        <activity android:name=".Activities.EditProfile" />
+        <activity android:name=".Activities.DisplayDogs" />
+        <activity android:name=".Activities.DogUpload" />
+        <activity android:name=".Activities.HomePage" />
+        <activity android:name=".Activities.LoadingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

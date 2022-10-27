@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="#a2c0be"
+        app:cnb_textColor="#fff"/>
+
+    <item
+        android:id="@+id/nav_dogs"
+        android:title="Adopt"
+        android:icon="@drawable/ic_dog"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="#a2c0be"
+        app:cnb_textColor="#fff"/>
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="Account"
+        android:icon="@drawable/ic_acc"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="#a2c0be"
+        app:cnb_textColor="#fff"/>
+
+</menu>

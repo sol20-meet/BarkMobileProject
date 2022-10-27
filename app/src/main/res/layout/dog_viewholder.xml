@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECFDF9"
+    android:foregroundTint="#C5F8EC"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/picFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4.5dp" />
+
+        <ImageView
+            android:id="@+id/dogImg"
+            android:layout_width="136dp"
+            android:layout_height="136dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvDogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto_black_italic"
+        android:text="//NAME//"
+        android:textColor="@color/dog_name_color"
+        app:layout_constraintStart_toEndOf="@+id/picFrame"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto_black_italic"
+        android:text="//BREED//:"
+        android:textColor="@color/dog_name_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvDogName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMore"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="View More"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/picFrame"
+        app:layout_constraintTop_toBottomOf="@+id/tvBreed" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "230627152086",
+    "firebase_url": "https://bark-74d26.firebaseio.com",
+    "project_id": "bark-74d26",
+    "storage_bucket": "bark-74d26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230627152086:android:52d39bb3a16e46f4a9b977",
+        "android_client_info": {
+          "package_name": "com.example.shelter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230627152086-utda4jddoi1tapshrh99dj11ao00h284.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shelter",
+            "certificate_hash": "02380095e2178303ceb3115103ffeb78d4e0903d"
+          }
+        },
+        {
+          "client_id": "230627152086-88lmq4ljfl4658d97gen60hloclge316.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMfl9nRkZd_DLocYk1cE9lJBErdYFs0qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230627152086-88lmq4ljfl4658d97gen60hloclge316.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

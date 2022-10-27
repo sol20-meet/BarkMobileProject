@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Welcome, "
+                android:textColor="@color/dog_name_color"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvWelcomeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="!!NAME!!"
+                android:textColor="@color/dog_name_color"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="375dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/allerta"
+            android:text="Tens of thousands of dogs are being killed and physically abused in and outside shelters. One of the key reasons that prevent these issues from being resolved is the lack of awareness, especially of the critical importance of adopting dogs, and the lack of understanding that when buying a dog, another healthy dog ​​longing for a home loses its life without any reason. As well, the failure of many adoptions due to the discrepancies of the dog and the adopter‘s environment due to mental, physical aspects and the adopted dog history, obstacles that prevent people from adopting and approaching the subject."
+            android:textColor="@color/dog_name_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="375dp"
+            android:layout_height="285dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/allerta"
+            android:text="Using the BARK platform, which offers an innovative method of adoption that focuses on the exact match between the dog and its owner according to personal and environmental aspects, along with many other social actions, we offer the adoption with the highest commitment potential. After that, we will give the adopter and his new friend professional assistance and guidance in extensive subjects in the real test, their life together, and not escape from responsibility. With BARK, we can encourage adoption and ensure steady adoption, thus significantly eradicating the phenomenons of death and abuse, change the social consensus, and prove that there is a lifelong friend for every person, waiting for his life to start."
+            android:textColor="@color/dog_name_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="234dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/allerta"
+            android:text="To Find More About Bark You Can Visit Our Website By Clicking On The Following Button"
+            android:textColor="@color/dog_name_color"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toStartOf="@+id/btWebiste"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <Button
+            android:id="@+id/btWebiste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Webiste"
+            app:icon="@drawable/ic_baseline_web_24_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+
+            />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="108dp"
+            android:layout_height="223dp"
+            android:text="TextView"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            tools:visibility="invisible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btEgg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_egg_black"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

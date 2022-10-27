@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age">
+        <item>Age</item>
+        <item>Less than 1 Year</item>
+        <item>1 Year</item>
+        <item>2 Years</item>
+        <item>3 Years</item>
+        <item>4 Years</item>
+        <item>5 Years</item>
+        <item>6 Years</item>
+        <item>7 Years</item>
+        <item>8 Years</item>
+        <item>9 Years</item>
+        <item>10 Years</item>
+        <item>11 Years</item>
+        <item>12 Years</item>
+        <item>13 Years</item>
+        <item>14 Years</item>
+        <item>15 Years</item>
+        <item>16 Years</item>
+        <item>18 Years</item>
+        <item>19 Years</item>
+        <item>20 Years</item>
+        <item>20+ Years</item>
+
+    </string-array>
+</resources>
